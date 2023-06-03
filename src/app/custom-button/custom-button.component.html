@@ -1,0 +1,13 @@
+<button
+  sui-button
+  tabindex="0"
+  [suiColour]="color"
+  suiAnimated="animated fade"
+  id="{{ btnId }}"
+  (click)="clickedBtn()"
+>
+  <div class="visible content">{{ customText }}</div>
+  <div class="hidden content">
+    <i sui-icon suiIconType="right arrow"></i>
+  </div>
+</button>

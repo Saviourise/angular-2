@@ -1,0 +1,32 @@
+<div class="body">
+  <div class="container">
+    <div>
+      <h1>Component Interaction</h1>
+    </div>
+
+    <div>
+      <p>
+        This is an angular task to demonstrate component interaction. The parent
+        component is the homepage component and the child component is the
+        custom button component. The custom button component has two buttons,
+        each with a unique id and message. When a button is clicked, the message
+        is displayed in the homepage component.
+      </p>
+      <p>You can play with the buttons below</p>
+    </div>
+    <div>
+      <app-custom-button
+        customText="Button 1"
+        btnId="btn1"
+        message="Button 1 clicked"
+        color="purple"
+      ></app-custom-button>
+      <app-custom-button
+        customText="Button 2"
+        btnId="btn2"
+        color="pink"
+        message="Button 2 clicked"
+      ></app-custom-button>
+    </div>
+  </div>
+</div>
